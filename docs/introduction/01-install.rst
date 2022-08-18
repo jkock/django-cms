@@ -51,7 +51,7 @@ Open the terminal application on your computer and go to a safe folder (i.e. cd 
       docker compose up -d database_default
       docker compose run web python manage.py migrate
       docker compose run web python manage.py createsuperuser
-      docker compose up -d
+      docker compose up -d web
 
 During the installation process, you will be prompted to enter your email address and set a username and password.
 Open your browser and insert ``http://localhost:8000/admin`` there you should be invited to login
